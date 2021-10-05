@@ -1,0 +1,32 @@
+<div>
+    <img class="fundo" src="../../../assets/img/fundo.png" alt="fundo Hobbies">
+    <mat-card class="home mat-elevation-z3">
+        <mat-card-title class="title">
+          Hobbies
+        </mat-card-title>
+        <section class="banner-carousel">
+          <div class="picture">
+            <div *ngIf="loading">
+              <owl-carousel-o [options]="opcoes">
+                <ng-template carouselSlide>
+                  <div class="slide">
+                    <img loading="lazy" src="../../../assets/img/hobbie-academia.jpg" alt="" />
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide">
+                    <img loading="lazy" src="../../../assets/img/hobbie-lol.jpg" alt="" />
+                  </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                  <div class="slide">
+                    <img loading="lazy" src="../../../assets/img/hobbie-netflix.jpg" alt="" />
+                  </div>
+                </ng-template>
+              </owl-carousel-o>
+            </div>
+          </div>
+        </section>
+    </mat-card>
+</div>
+

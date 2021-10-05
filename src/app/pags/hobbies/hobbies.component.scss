@@ -1,0 +1,45 @@
+.fundo {
+    width: 100%;
+    height: 613px;
+}
+
+mat-card {
+    padding: 30px;
+    position: absolute;
+    top: 0%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 3%);
+    background-color: #fafafa4a;
+    color: white;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+::ng-deep {
+  .banner-carousel {
+    background-color: #fff;
+
+    .owl-carousel {
+      height: 500px;
+      width: 100%;
+      .owl-nav {
+        overflow: hidden;
+        height: 0;
+      }
+
+      .own-item {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+::ng-deep .owl-carousel .owl-stage-outer {
+  height: 100%;
+}

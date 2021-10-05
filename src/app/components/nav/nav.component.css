@@ -1,0 +1,21 @@
+.nav-list {
+    padding: 10px 2px 0 0;
+}
+
+.sidenav {
+    background-color: #747272;
+    width: 200px;
+}
+
+.nav-list a {
+    color: white;
+    padding: 8px 0 0 0;
+}
+
+.nav-list a i {
+    padding-right: 10px;
+}
+
+.container {
+    height: 620px;
+}
